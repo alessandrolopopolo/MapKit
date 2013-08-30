@@ -1,6 +1,26 @@
 MapKit plugin for iOS and Android
 =================================
 
+
+**************************************
+
+changes for phonegap 3.0 for Android:
+
+update MapKit.java
+
+update config.xml:
+	<feature name="MapKit">
+        <param name="android-package" value="com.phonegap.plugins.mapkit.MapKit" />
+    </feature> 
+
+	(com.phonegap.plugins.mapkit -> it is the package where you have MapKit)
+	
+	
+put the plugin file MapKit-master in plugins directory
+
+
+**************************************
+
 Uses *Apple Maps* on iOS and *Google Maps v2* on Android
 
 Currently only works/tested on Android and iOS.
